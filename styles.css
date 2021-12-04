@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(
+    137.06deg,
+    rgba(39, 108, 118, 0.7) 25.52%,
+    rgba(108, 185, 196, 0.4) 75.9%
+  )
+}
+
+header {
+font-style: normal;
+font-weight: normal;
+font-size: 96px;
+line-height: 149px;
+margin-left: 30%;
+}
+
+section {
+position: absolute;
+width: 655px;
+height: 645px;
+left: 392px;
+top: 232px;
+margin-left: 13%;
+
+background: #D9FFEA;
+box-shadow: 0px 0px 30px 5px #B7F7F7;
+}

@@ -32,4 +32,23 @@ section {
   background: #d9ffea;
   box-shadow: 0px 0px 30px 5px #b7f7f7;
   padding: 14px 16px;
+  margin-top: -5%;
+}
+
+.button {
+  background-color:#5A9AB6;
+  color: white;
+}
+
+.deleteBtn, .completedBtn {
+  background-color: #5A9AB6;
+}
+
+.buttons {
+  margin-top: 4%;
+}
+
+.social-icons {
+  margin-top: 75%;
+  margin-left: 47%;
 }

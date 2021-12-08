@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
     <link rel="stylesheet" href="./styles.css">
     <title>To Do List</title>
@@ -15,13 +16,17 @@
         </header>
     
         <section>
-            <input type="text" id="input">
-            <div class="buttons are-medium">
-                <button class="button" type="button" id="btn">Submit</button>
-                <button class="button" type="button" id="clear">Clear</button>
+            <input type="text" class="input is-primary is-medium" id="input">
+            <div class="buttons are-small">
+                <button class="button is-rounded" type="button" id="btn">Submit</button>
+                <button class="button is-rounded" type="button" id="clear">Clear</button>
             </div>
             <div id="lists">
                 <ul id="show-list"></ul>
+            </div>
+            <div class="social-icons icon is-medium">
+               <a href="https://github.com/ivymmurithi/to-do-list"><i class="fab fa-lg fab fa-github ml-5"></i></a>
+               <a href="mailto:ivymurithi@gmail.com"><i class="fas fa-lg fas fa-envelope ml-5"></i></a> 
             </div>
         </section>
     </div>

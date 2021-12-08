@@ -3,7 +3,8 @@ $(document).ready(function() {
         let info = $("#input").val();
         $("#input").val("");
         let btn = `<button class = "deleteBtn">Delete</button>`;
-        $("#show-list").append("<div><li>" + info + " " + btn + "</li></div>");
+        let completed =`<button class = "completedBtn">Completed</button>`
+        let displayed = $("#show-list").append("<div><li>" + info + " " + btn + " " + completed + "</li></div>");
     });
 
     $("#clear").click(function() {
@@ -13,6 +14,10 @@ $(document).ready(function() {
 
      $("#show-list").on("click", ".deleteBtn", function(){
             $(this).parent().remove();
+     });
+
+     $("#show-list").on("click", ".completedBtn", function() {
+        $(this).parent().css('text-decoration', 'line-through')
      });
 
 });
